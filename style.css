@@ -34,3 +34,9 @@ button {
 button:hover {
   cursor: pointer;
 }
+
+.fa-solid {
+  color: #7172b3;
+  font-size: 18px;
+  opacity: 50%;
+}
