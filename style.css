@@ -9,3 +9,9 @@ p {
 img {
   border-radius: 20%;
 }
+
+.refference {
+  font-family: "Figtree", sans-serif;
+  list-style: none;
+  font-size: 10px;
+}
