@@ -2,13 +2,10 @@ body {
   background-color: #f6f3ec;
 }
 
-h1 {
-  font-family: "La Belle Aurore", cursive;
-  color: #7172b3;
-}
-
+h1,
 h2 {
   font-family: "La Belle Aurore", cursive;
+  text-align: center;
   color: #7172b3;
 }
 
