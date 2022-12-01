@@ -25,7 +25,6 @@ img {
 
 button {
   display: block;
-  margin: 30px auto 0px;
   border: 1px solid #7172b3;
   background: #7172b3;
   color: black;
@@ -33,6 +32,7 @@ button {
   font-family: "Figtree", sans-serif;
   line-height: 22px;
   padding: 12px 25px;
+  margin: 30px auto 0px;
 }
 
 button:hover {
@@ -42,13 +42,8 @@ button:hover {
 .collection {
   padding-right: 100px;
 }
-
 .fa-solid {
   color: #7172b3;
   font-size: 18px;
   opacity: 50%;
-}
-
-.fa-chevron-right {
-  color: black;
 }
