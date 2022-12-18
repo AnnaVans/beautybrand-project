@@ -24,8 +24,38 @@ h4 {
 
   padding: 60px;
 }
+.language-e,
+.language-f {
+  display: block;
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: 0.5px solid;
+  letter-spacing: 0.1rem;
+}
 
-button {
+.language-e {
+  padding: 3px 25px;
+  width: 30%;
+  margin-bottom: 4px;
+}
+
+.language-f {
+  padding: 3px 25px;
+  width: 30%;
+}
+
+.language-e:hover {
+  background-color: black;
+  color: white;
+}
+.language-f:hover {
+  background-color: black;
+  color: white;
+}
+
+.discover {
   background-color: black;
   color: white;
   text-transform: uppercase;
@@ -36,7 +66,7 @@ button {
   padding: 5px 40px;
 }
 
-button:hover {
+.discover:hover {
   background-color: white;
   color: black;
 }
