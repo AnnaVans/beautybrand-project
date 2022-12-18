@@ -28,28 +28,156 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
+    <style>
+      p {
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-family: "Work Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: 0.2rem;
+      }
+
+      h4 {
+        font-family: "Work Sans", sans-serif;
+        text-align: center;
+        font-size: 20px;
+        letter-spacing: 0.2rem;
+        line-height: 16px;
+        margin-top: 30px;
+
+        padding: 60px;
+      }
+
+      .source-code {
+        list-style: none;
+        color: inherit;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: capitalize;
+      }
+
+      .source-code:hover {
+        text-decoration: underline;
+        color: black;
+      }
+
+      .language-e,
+      .language-f {
+        display: block;
+        background-color: white;
+        font-family: "Montserrat", sans-serif;
+        font-size: 12px;
+        text-transform: uppercase;
+        border: 0.5px solid;
+        letter-spacing: 0.1rem;
+      }
+
+      .language-e {
+        padding: 3px 25px;
+        width: 30%;
+        margin: 5px 0;
+      }
+
+      .language-f {
+        padding: 3px 25px;
+        width: 30%;
+      }
+
+      .language-e:hover {
+        background-color: black;
+        color: white;
+      }
+      .language-f:hover {
+        background-color: black;
+        color: white;
+      }
+
+      .discover {
+        background-color: black;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+        font-family: "Work Sans", sans-serif;
+        display: block;
+        margin: 7em auto;
+        padding: 5px 40px;
+      }
+
+      .discover:hover {
+        background-color: white;
+        color: black;
+      }
+
+      .name,
+      .price {
+        font-family: "Montserrat", sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      .volume {
+        font-family: "Montserrat", sans-serif;
+        text-align: center;
+        font-size: 12px;
+        opacity: 0.7;
+      }
+
+      .heel {
+        text-transform: capitalize;
+      }
+      .intro {
+        animation-duration: 3s;
+        animation-name: slidein;
+      }
+
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%;
+        }
+
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+    </style>
   </head>
   <body>
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="imgs/002.jpg"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/460/original/002.jpg?1671382450"
             class="img-fluid mt-5 mb-3 p-3"
             alt="Perfume making"
           />
           <h1>Creating</h1>
           <p class="intro">
-            It’s time to think differently about your perfume. It’s time to
+            It's time to think differently about your perfume. It's time to
             explore the possibility of your fragrance – your unique personal
             calling card.
           </p>
         </div>
 
         <div class="col-sm-4">
-          <img src="imgs/logo.png" class="img-fluid mt-3 mb-2" alt="logo" />
           <img
-            src="imgs/003.jpg"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/462/original/logo.png?1671382568"
+            class="img-fluid mt-3 mb-2"
+            alt="logo"
+          />
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/461/original/003.jpg?1671382537"
             class="img-fluid mb-3 p-3"
             alt="Perfume making"
           />
@@ -62,7 +190,7 @@
         </div>
         <div class="col-sm-4">
           <img
-            src="imgs/001.jpg"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/459/original/001.jpg?1671382440"
             class="img-fluid mt-5 mb-3 p-3"
             alt="Perfume making"
           />
@@ -80,7 +208,7 @@
       <div class="row">
         <div class="col-sm-3">
           <img
-            src="imgs/uk2000.jpg"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/466/original/uk2000.jpg?1671382686"
             class="img-fluid"
             alt="Slow Dance fragrance"
           />
@@ -92,7 +220,7 @@
         </div>
         <div class="col-sm-3">
           <img
-            src="imgs/uk500.jpg"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/464/original/UK500.jpg?1671382637"
             class="img-fluid"
             alt="Gypsy Water fragrance"
           />
@@ -104,7 +232,7 @@
         </div>
         <div class="col-sm-3">
           <img
-            src="imgs/uk300.jpg"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/463/original/uk300.jpg?1671382605"
             class="img-fluid"
             alt="Sundazed fragrance"
           />
@@ -116,7 +244,7 @@
         </div>
         <div class="col-sm-3">
           <img
-            src="imgs/uk600.jpg"
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/059/465/original/uk600.jpg?1671382659"
             class="img-fluid"
             alt="Mojave Ghost fragrance"
           />
@@ -137,6 +265,7 @@
             href="https://github.com/AnnaVans/beautybrand-project"
             class="source-code"
             alt="Source code"
+            target="_blank"
             ><i class="fa-solid fa-user-gear"></i> Open-source code</a
           >
           <button class="language-e">English</button>
