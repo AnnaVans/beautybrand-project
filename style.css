@@ -59,8 +59,7 @@ button:hover {
 .heel {
   text-transform: capitalize;
 }
-
-p {
+.intro {
   animation-duration: 3s;
   animation-name: slidein;
 }
