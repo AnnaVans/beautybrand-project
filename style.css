@@ -24,6 +24,21 @@ h4 {
 
   padding: 60px;
 }
+
+.source-code {
+  list-style: none;
+  color: inherit;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: capitalize;
+}
+
+.source-code:hover {
+  text-decoration: underline;
+  color: black;
+}
+
 .language-e,
 .language-f {
   display: block;
@@ -38,7 +53,7 @@ h4 {
 .language-e {
   padding: 3px 25px;
   width: 30%;
-  margin-bottom: 4px;
+  margin: 5px 0;
 }
 
 .language-f {
